@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installman</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+        header img {
+            width: 256px;
+            height: 256px;
+        }
+        header h1 {
+            font-family: 'Segoe UI', sans-serif;
+            font-weight: 600; /* semibold */
+            color: #ffffff;
+            margin: 10px 0 0;
+        }
+        .botonera {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: auto;
+            margin-bottom: 300px; /* Ajusta la posición 300px arriba del final de la página */
+        }
+        .botonera div {
+            margin: 10px 0;
+        }
+        .botonera a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e8491d;
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+        }
+        .botonera a:hover {
+            background-color: #35424a;
+        }
+        footer {
+            background-color: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+        .copyleft {
+            display: inline-block;
+            transform: rotate(180deg);
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="installman-static-512x512.png" alt="Installman Logo">
+        <h1>Installman - Administrador de paquetes</h1>
+    </header>
+    <div class="botonera">
+        <div>
+            <a href="https://github.com/danucosukosuko/installman/releases" target="_blank">Descargar</a>
+        </div>
+        <div>
+            <a href="https://github.com/danucosukosuko/installman" target="_blank">GitHub</a>
+        </div>
+    </div>
+    <footer>
+        <span class="copyleft">&copy;</span>
+        <p>Todos los derechos reservados 2024</p>
+    </footer>
+</body>
+</html>
